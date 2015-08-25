@@ -1,0 +1,22 @@
+#
+# Mark as spam
+:0fw: sa.lock
+* < 256000
+| /usr/local/bin/spamc 
+#
+#
+# Delete all Spam
+#
+###vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+:0
+* ^X-Spam-Status: Yes
+/dev/null
+#SPAM
+###^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+#
+#  See the document
+#
+#	https://engineering.purdue.edu/ECN/documents/UNIX/sa/
+#
+#  for more information about SpamAssassin settings.
+#

@@ -1,0 +1,33 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/ecegrid/a/mg54/ece337/Lab1.bak
+vcomparator
+DXx6 sv_std 3 std 0 22 <EOTafDcUY:cQeO^ICn]m3
+!s110 1440533402
+!i10b 1
+!s100 7_B6_UhCZiLHm<:PPz5b90
+IdlU6QN7z?fXWf;gPH3]003
+V`JN@9S9cnhjKRR_L]QIcM3
+!s105 comparator_sv_unit
+S1
+R0
+w1440533398
+8source/comparator.sv
+Fsource/comparator.sv
+L0 11
+OL;L;10.3b;59
+r1
+!s85 0
+31
+!s108 1440533402.198679
+!s107 source/comparator.sv|
+!s90 -reportprogress|300|source/comparator.sv|
+!i113 0
+tCoverage 63 CoverExcludeDefault 1 CoverOpt 1 CoverFEC 0 CoverShortCircuit 0

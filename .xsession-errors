@@ -1,0 +1,48 @@
+GNOME_KEYRING_SOCKET=/tmp/keyring-yCl3Lh/socket
+SSH_AUTH_SOCK=/tmp/keyring-yCl3Lh/socket.ssh
+
+(process:10723): GLib-WARNING **: goption.c:2132: ignoring no-arg, optional-arg or filename flags (8) on option of type 0
+
+(process:10723): GLib-WARNING **: goption.c:2132: ignoring no-arg, optional-arg or filename flags (8) on option of type 0
+
+(process:10723): GLib-WARNING **: goption.c:2132: ignoring no-arg, optional-arg or filename flags (8) on option of type 0
+** Message: applet now removed from the notification area
+
+** (nm-applet:10734): WARNING **: get_all_cb: couldn't retrieve system settings properties: (2) The name org.freedesktop.NetworkManagerSystemSettings was not provided by any .service files.
+Traceback (most recent call last):
+  File "/usr/share/system-config-printer/applet.py", line 20, in <module>
+
+(polkit-gnome-authentication-agent-1:10766): GLib-GObject-WARNING **: cannot register existing type `_PolkitError'
+
+(polkit-gnome-authentication-agent-1:10766): GLib-CRITICAL **: g_once_init_leave: assertion `initialization_value != 0' failed
+    import cups
+ImportError: No module named cups
+Failed to play sound: File or data not found
+
+** (nm-applet:10734): WARNING **: fetch_connections_done: error fetching system connections: (2) The name org.freedesktop.NetworkManagerSystemSettings was not provided by any .service files.
+Initializing nautilus-gdu extension
+Initializing nautilus-open-terminal extension
+console.error: 
+  [CustomizableUI]
+  Custom widget with id loop-button does not return a valid node
+console.error: 
+  [CustomizableUI]
+  Custom widget with id loop-button does not return a valid node
+Vector smash protection is enabled.
+Window manager warning: Received a _NET_WM_MOVERESIZE message for 0x1e00003 (mg54@ee215); these messages lack timestamps and therefore suck.
+
+(rhsm-icon:10736): libnotify-CRITICAL **: notify_notification_close: assertion `notification != NULL' failed
+
+(rhsm-icon:10736): GLib-GObject-CRITICAL **: g_object_unref: assertion `G_IS_OBJECT (object)' failed
+1440530365618	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+console.error: 
+  [CustomizableUI]
+  Custom widget with id loop-button does not return a valid node
+console.error: 
+  [CustomizableUI]
+  Custom widget with id loop-button does not return a valid node
+Vector smash protection is enabled.
+Connecting to deprecated signal QDBusConnectionInterface::serviceOwnerChanged(QString,QString,QString)
+kbuildsycoca4 running...
+"KConfigIni: In file /tmp/kde-mg54/kconf_updateh12082.tmp, line 1: " Invalid entry (missing '=') 
+Connecting to deprecated signal QDBusConnectionInterface::serviceOwnerChanged(QString,QString,QString)

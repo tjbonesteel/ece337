@@ -1,0 +1,334 @@
+if (!window.mraid) {document.write('\x3cdiv class="GoogleActiveViewClass" ' +'id="DfaVisibilityIdentifier_356597828"\x3e');}
+(function() {
+  var DEBUG = ''.toLowerCase() == 'true';
+  var csiStart = (+new Date);
+  var studioObjects = window['studioV2'] = window['studioV2'] || {};
+  var publisherSideFilePath = unescape('');
+  if(publisherSideFilePath == '') {
+    publisherSideFilePath = '/doubleclick/DARTIframe.html';
+  } else if (publisherSideFilePath.charAt(publisherSideFilePath.length - 1) == '/') {
+    publisherSideFilePath += 'DARTIframe.html';
+  }
+  var bookingTimeMetaData = {
+  };
+
+  var runtimeMetaData = {
+  };
+
+  var exitUrlPatternMacroValues = {
+  };
+  var macroParser = function (macroName, value) {
+    return (value.indexOf(macroName) < 0) ? value : '';
+  };
+  var adServerData = {
+    eventReportingUrl: 'https://ad.doubleclick.net/activity;src=4468309;met=1;v=1;pid=120864935;aid=293788227;ko=0;cid=64790178;rid=64670278;rv=1;',
+    clickUrl: 'https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjsszHQHUrn1zRfUz7Oder2MgZj-6imYwmJ6-o5n5a5XDKecidn4wMYxcyDzkKD4GQYOZicVvOlIEZH-pxIyj_QGsAbecVzuFWKCUdECHtDGbnH70SUYAbc1XHkPAmWR6BnHPYrm-Wg0&sig=Cg0ArKJSzAUz8nKPTGm7EAE&adurl=http://adclick.g.doubleclick.net/aclk%3Fsa%3DL%26ai%3DCu89x773cVdfEMdeKpgO2oqDIDa2Yn-AG3cCD344BwI23ARABIABgyba9iPSjnBKCARdjYS1wdWItNzgyNTcwNTEwMjY5MzE2NsgBCagDAZgEAKoEmwFP0H6FzujD4mxcxlrAAIJm2ZI0_-q-6G5Os7P4zkCRUMuD5uaG2KVOwzL7wiJ2dNVW92pfEzt9-cgmiKwqlaF1uBu_tPNti5yvduU4t_-17FpGoEJiYhzrsKObdIaT9oymsZuig0k_WyWeB7wlvWaD6C8r3A-qAiPCSx5bXWPOpFBnz-Mba8Ezem1uXLkuV2WqmEyUJ_nm0RTXmIAG96jG4KuKwf3sAaAGIdgHAA%26num%3D1%26sig%3DAOD64_1YWGWeqRZr-x_ChpQZumD668mHkQ%26client%3Dca-pub-7825705102693166%26adurl%3D',
+    clickUrlTimesToEscape: '',
+    impressionUrl: '',
+    geoData: 'ct=US&st=IN&city=13844&dma=78&zp=47906&bw=4',
+    siteName: 'N51901.1355339GOOGLE.COMDDMBIDMA',
+    siteId: '1781800',
+    adId: '0',
+    exitSuffix: '',
+    buyId: '8718405',
+    creativeId: '64790178',
+    placementId: '120864935',
+    advertiserId: '4468309',
+    keyValueOrdinal: '0',
+    renderingVersion: '1',
+    renderingId: '64670278',
+    randomNumber: '356597828',
+    dynamicData: '',
+    stringReportingUrl: 'https://ad.doubleclick.net/activity;src=4468309;stragg=1;v=1;pid=120864935;aid=293788227;ko=0;cid=64790178;rid=64670278;rv=1;rn=356597828;',
+    urlToGetKeywordsFor: '%LivePreviewSiteUrl',
+    bookingTimeMetaData: bookingTimeMetaData,
+    generatedAdSlot: false,
+    exitUrlPatternMacroValues: exitUrlPatternMacroValues,
+    renderingEnvironment: ('' == '1' ||
+        window['mraid']) ? 'IN_APP' : 'BROWSER',
+    placementDimensions: {
+      'w': '728',
+      'h': '90'
+    },
+    tag: {
+      adContainerElementId: macroParser('ad_container_id', ''),
+      hideObjects: '',
+      top: '',
+      left: '',
+      zIndex: '',
+      duration: '',
+      wmode: '',
+      preferHtml5Artwork: '' == 'true',
+      adSenseKeywords: '',
+      adSenseLatitude: '',
+      adSenseLongitude: '',
+      publisherSideFilePath: publisherSideFilePath,
+      runtimeMetaData: runtimeMetaData,
+      lidarEnabled: false,
+      expansionMode: '',
+      renderFloatInplace: ''.toLowerCase() == 'true',
+      tryToWriteHtmlInline: ''.toLowerCase() == 'true'
+    }
+  };
+
+  var scheme;
+  if ('https' == 'http' || 'https' == 'https') {
+    // DCM scheme macro usage.
+    scheme = 'https' + ':';
+  } else if ('%%SCHEME%%' == 'http' || '%%SCHEME%%' == 'https') {
+    // XFP scheme macro usage.
+    scheme = '%%SCHEME%%' + ':';
+  } else {
+    // preview usage.
+    scheme = location.protocol;
+  }
+  var staticResourceMediaServer = scheme == 'https:' ?
+       'https://s0.2mdn.net' :
+       'http://s0.2mdn.net';
+
+  var creativeMediaServer = scheme == 'https:' ?
+       'https://s0.2mdn.net' :
+       'http://s0.2mdn.net';
+
+  var backupImageUrl = '/4468309/BBY2015_0823_5629_DI_Deal_Reveled_728x90.jpg';
+  if (!/^https?:/.test(backupImageUrl)) {
+    backupImageUrl = creativeMediaServer + backupImageUrl;
+  }
+  var backupImage = {
+    exitUrl: 'https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjsszHQHUrn1zRfUz7Oder2MgZj-6imYwmJ6-o5n5a5XDKecidn4wMYxcyDzkKD4GQYOZicVvOlIEZH-pxIyj_QGsAbecVzuFWKCUdECHtDGbnH70SUYAbc1XHkPAmWR6BnHPYrm-Wg0&sig=Cg0ArKJSzAUz8nKPTGm7EAE&adurl=http://adclick.g.doubleclick.net/aclk%3Fsa%3DL%26ai%3DCu89x773cVdfEMdeKpgO2oqDIDa2Yn-AG3cCD344BwI23ARABIABgyba9iPSjnBKCARdjYS1wdWItNzgyNTcwNTEwMjY5MzE2NsgBCagDAZgEAKoEmwFP0H6FzujD4mxcxlrAAIJm2ZI0_-q-6G5Os7P4zkCRUMuD5uaG2KVOwzL7wiJ2dNVW92pfEzt9-cgmiKwqlaF1uBu_tPNti5yvduU4t_-17FpGoEJiYhzrsKObdIaT9oymsZuig0k_WyWeB7wlvWaD6C8r3A-qAiPCSx5bXWPOpFBnz-Mba8Ezem1uXLkuV2WqmEyUJ_nm0RTXmIAG96jG4KuKwf3sAaAGIdgHAA%26num%3D1%26sig%3DAOD64_1YWGWeqRZr-x_ChpQZumD668mHkQ%26client%3Dca-pub-7825705102693166%26adurl%3Dhttp://deals.bestbuy.com%253Fref%253D166%2526loc%253DBAN_1781800_8718405',
+    target: '_blank',
+    imageUrl: backupImageUrl,
+    width: '728',
+    height: '90',
+    backupDisplayActivityUrl: '',
+    thirdPartyBackupImpressionUrl: ''
+  };
+
+  var versionPrefix = DEBUG ? 'db_' : '';
+  var templateVersion = '200_95';
+  var renderingScriptPath = '/879366';
+  var rendererDisplayType = '';
+  rendererDisplayType += 'dfa7banner_';
+  rendererDisplayType += 'flash_';
+  var rendererFormat = 'inpage';
+  var rendererName = rendererDisplayType + rendererFormat;
+  var renderingLibrary = renderingScriptPath + '/' + rendererName + '_rendering_lib_' +
+      versionPrefix + templateVersion + '.js';
+  // Adserver has a logic to detect media files and prepend host name.
+  if (!/^https?:/.test(renderingLibrary)) {
+    renderingLibrary = staticResourceMediaServer + renderingLibrary;
+  }
+
+  var adCreativeDefinitions = {};
+
+  var creativeId = '64790178';
+  var adId = adCreativeDefinitions[adServerData.adId] ? adServerData.adId : 0;
+  // The unique creative is identified by combination of creative id and ad id.
+  // When the same creative(same creative id and same ad id) is served on the page more
+  // than once then they will share the creative definition yet there will be
+  // multiple instances of 'adResponses'.s
+  var creativeKey = [creativeId, adId].join('_');
+  var creativeDef = adCreativeDefinitions[adServerData.adId] ?
+      adCreativeDefinitions[adServerData.adId] :
+      '[%DEFAULT_PLCR_PATH%]';
+  if(!/^https?:/.test(creativeDef) && creativeDef.substring(0, 2) != '//') {
+    creativeDef = creativeMediaServer + creativeDef;
+  }
+    creativeDef = null;
+  studioObjects['creativeCount'] = studioObjects['creativeCount'] || 0;
+  var creativeDto = {
+    id: creativeId,
+    uniqueId: creativeId + '_' + studioObjects['creativeCount']++,
+    templateVersion: templateVersion,
+    adServerData: adServerData,
+    isPreviewEnvironment: '%PreviewMode' == 'true',
+    hasFlashAsset: true,
+    hasHtmlAsset: false,
+    requiresCss3Animations: false,
+    flashVersion: '9',
+    httpsMediaServer: 'https://s0.2mdn.net',
+    httpMediaServer: 'http://s0.2mdn.net',
+    renderingScriptPath: renderingScriptPath,
+    renderingLibrary: renderingLibrary,
+    rendererName: rendererName,
+    creativeDefinitionUrl: creativeDef,
+    creativeKey: creativeKey,
+    thirdPartyImpressionUrls: [''],
+    thirdPartyArtworkImpressionUrl: '',
+    breakoutToTop: false,
+    dimensions: {
+      width: '728px',
+      height: '90px'
+    },
+    backupImage: backupImage,
+    csiStart: csiStart,
+    csiAdRespTime: csiStart - (parseFloat('') || 0),
+    csiEvents: {},
+    hasModernizrFeatureChecks: false,
+    html5FeatureChecks: [
+    ],
+    hasSwiffyHtmlAsset: false
+  };
+
+  var inGdnIframe = window['IN_ADSENSE_IFRAME'] || false;
+  var inYahooSecureIframe = window.Y && Y.SandBox && Y.SandBox.vendor;
+  var inWinLiveIframe = false;
+  try {
+    inWinLiveIframe = !!window.$WLXRmAd;
+  } catch(e) {}
+  var inSafeFrame = window.$sf && window.$sf.ext;
+  var isMsnAjaxIframe = (typeof(inDapMgrIf) != 'undefined' && inDapMgrIf);
+  var breakoutIframe = ''.toLowerCase();
+  var shouldBreakout = (((false ||
+                          false) &&
+                         !inGdnIframe &&
+                         !inYahooSecureIframe &&
+                         !inSafeFrame &&
+                         !inWinLiveIframe) ||
+                        (true && breakoutIframe == 'true')) &&
+                       self != top &&
+                       !creativeDto.isPreviewEnvironment &&
+                       breakoutIframe != 'false';
+
+  if (adServerData.tag.adContainerElementId == '' &&
+      (true || false ||
+         adServerData.tag.renderFloatInplace)) {
+    var containerId = ['creative', creativeDto.uniqueId].join('_');
+    var divHtml = ['<div id="', containerId, '"></div>'].join('');
+    document.write(divHtml);
+    adServerData.tag.adContainerElementId = containerId;
+    adServerData.generatedAdSlot = true;
+  }
+  var creatives = studioObjects['creatives'] = studioObjects['creatives'] || {};
+  var creative = creatives[creativeKey] = creatives[creativeKey] || {};
+  var adResponses = creative['adResponses'] = creative['adResponses'] || [];
+  creative['shouldBreakout'] = creative['shouldBreakout'] || shouldBreakout;
+  var iframeBusterLibrary = renderingScriptPath + '/iframe_buster_' +
+      versionPrefix + templateVersion + '.js';
+  if(!/^https?:/.test(iframeBusterLibrary)) {
+    iframeBusterLibrary = staticResourceMediaServer + iframeBusterLibrary;
+  }
+  var loadedLibraries = studioObjects['loadedLibraries'] = studioObjects['loadedLibraries'] || {};
+  var versionedLibrary = loadedLibraries[templateVersion] = loadedLibraries[templateVersion] || {};
+  var typedLibrary = versionedLibrary[rendererName] = versionedLibrary[rendererName] || {};
+  adResponses.push({
+    creativeDto: creativeDto
+  });
+  if (shouldBreakout) {
+    if (versionedLibrary['breakout']) {
+      versionedLibrary['breakout']();
+    } else if (!versionedLibrary['breakoutLoading']) {
+      versionedLibrary['breakoutLoading'] = true;
+      document.write('<scr' + 'ipt type="text/javascript" src="' + iframeBusterLibrary + '" async="async"></scr' + 'ipt>');
+    }
+  } else if (typedLibrary['bootstrap'] && creative['creativeDefinition']) {
+    typedLibrary['bootstrap']();
+  } else {
+    if (!typedLibrary['loading']) {
+      typedLibrary['loading'] = true;
+      creativeDto.csiEvents['gb'] = (+new Date);
+      document.write('<scr' + 'ipt type="text/javascript" src="' + renderingLibrary + '"' + (adServerData.tag.tryToWriteHtmlInline ? '' : ' async="async"') + '></scr' + 'ipt>');
+    }
+  }
+  if (isMsnAjaxIframe) {
+    window.setTimeout("document.close();", 1000);
+  }
+  (function() {
+  var creativeDefinition = {
+    customScriptUrl: '',
+    isDynamic: false,
+    delayedImpression: false,
+    standardEventIds: {
+      HTML5_CREATIVE_IMPRESSION: '871060'
+    },
+    exitEvents: [
+      {
+        name: 'clickTag1',
+        reportingId: '',
+        url: 'https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjsszHQHUrn1zRfUz7Oder2MgZj-6imYwmJ6-o5n5a5XDKecidn4wMYxcyDzkKD4GQYOZicVvOlIEZH-pxIyj_QGsAbecVzuFWKCUdECHtDGbnH70SUYAbc1XHkPAmWR6BnHPYrm-Wg0&sig=Cg0ArKJSzAUz8nKPTGm7EAE&adurl=http://adclick.g.doubleclick.net/aclk%3Fsa%3DL%26ai%3DCu89x773cVdfEMdeKpgO2oqDIDa2Yn-AG3cCD344BwI23ARABIABgyba9iPSjnBKCARdjYS1wdWItNzgyNTcwNTEwMjY5MzE2NsgBCagDAZgEAKoEmwFP0H6FzujD4mxcxlrAAIJm2ZI0_-q-6G5Os7P4zkCRUMuD5uaG2KVOwzL7wiJ2dNVW92pfEzt9-cgmiKwqlaF1uBu_tPNti5yvduU4t_-17FpGoEJiYhzrsKObdIaT9oymsZuig0k_WyWeB7wlvWaD6C8r3A-qAiPCSx5bXWPOpFBnz-Mba8Ezem1uXLkuV2WqmEyUJ_nm0RTXmIAG96jG4KuKwf3sAaAGIdgHAA%26num%3D1%26sig%3DAOD64_1YWGWeqRZr-x_ChpQZumD668mHkQ%26client%3Dca-pub-7825705102693166%26adurl%3Dhttp://deals.bestbuy.com%253Fref%253D166%2526loc%253DBAN_1781800_8718405',
+        targetWindow: '_blank',
+        windowProperties: ''
+      }
+    ],
+    timerEvents: [
+    ],
+    counterEvents: [
+    ],
+    childFiles: [
+    ],
+    videoFiles: [
+    ],
+    videoEntries: [
+    ],
+    primaryAssets: [
+      {
+        id: '0',
+        artworkType: 'FLASH',
+        displayType: 'BANNER',
+        width: '728',
+        height: '90',
+        servingPath: '/4468309/BBY2015_0823_5629_DI_Deal_Reveled_728x90.swf',
+        zIndex: '0',
+        customCss: '',
+        flashArtworkTypeData: {
+          actionscriptVersion: '2',
+          wmode: 'opaque',
+          sdkVersion: '',
+          flashBackgroundColor: '',
+          allowScriptAccess: 'always'
+        },
+        htmlArtworkTypeData: null,
+        floatingDisplayTypeData: null,
+        expandingDisplayTypeData: null,
+        imageGalleryTypeData: null,
+        pageSettings:null,
+layoutsConfig: null,
+layoutsApi: null
+      }
+    ]
+  }
+  var rendererDisplayType = '';
+  rendererDisplayType += 'dfa7banner_';
+  rendererDisplayType += 'flash_';
+  var rendererFormat = 'inpage';
+  var rendererName = rendererDisplayType + rendererFormat;
+
+  var creativeId = '64790178';
+  var adId = '0';
+  var templateVersion = '200_95';
+  var studioObjects = window['studioV2'] = window['studioV2'] || {};
+  var creativeObjects = studioObjects['creatives'] = studioObjects['creatives'] || {};
+  var creativeKey = [creativeId, adId].join('_');
+  var creative = creativeObjects[creativeKey] = creativeObjects[creativeKey] || {};
+  creative['creativeDefinition'] = creativeDefinition;
+  var adResponses = creative['adResponses'] || [];
+  for (var i = 0; i < adResponses.length; i++) {
+    adResponses[i].creativeDto && adResponses[i].creativeDto.csiEvents &&
+        (adResponses[i].creativeDto.csiEvents['pe'] =
+            adResponses[i].creativeDto.csiEvents['pe'] || (+new Date));
+  }
+  var loadedLibraries = studioObjects['loadedLibraries'] = studioObjects['loadedLibraries'] || {};
+  var versionedLibrary = loadedLibraries[templateVersion] = loadedLibraries[templateVersion] || {};
+  var typedLibrary = versionedLibrary[rendererName] = versionedLibrary[rendererName] || {};
+  if (typedLibrary['bootstrap']) {
+    typedLibrary.bootstrap();
+  }
+})();
+
+})();
+document.write('\n\x3cnoscript\x3e\n  \x3ca target\x3d\x22_blank\x22 href\x3d\x22https://adclick.g.doubleclick.net/pcs/click?xai\x3dAKAOjsszHQHUrn1zRfUz7Oder2MgZj-6imYwmJ6-o5n5a5XDKecidn4wMYxcyDzkKD4GQYOZicVvOlIEZH-pxIyj_QGsAbecVzuFWKCUdECHtDGbnH70SUYAbc1XHkPAmWR6BnHPYrm-Wg0\x26sig\x3dCg0ArKJSzAUz8nKPTGm7EAE\x26adurl\x3dhttp://adclick.g.doubleclick.net/aclk%3Fsa%3DL%26ai%3DCu89x773cVdfEMdeKpgO2oqDIDa2Yn-AG3cCD344BwI23ARABIABgyba9iPSjnBKCARdjYS1wdWItNzgyNTcwNTEwMjY5MzE2NsgBCagDAZgEAKoEmwFP0H6FzujD4mxcxlrAAIJm2ZI0_-q-6G5Os7P4zkCRUMuD5uaG2KVOwzL7wiJ2dNVW92pfEzt9-cgmiKwqlaF1uBu_tPNti5yvduU4t_-17FpGoEJiYhzrsKObdIaT9oymsZuig0k_WyWeB7wlvWaD6C8r3A-qAiPCSx5bXWPOpFBnz-Mba8Ezem1uXLkuV2WqmEyUJ_nm0RTXmIAG96jG4KuKwf3sAaAGIdgHAA%26num%3D1%26sig%3DAOD64_1YWGWeqRZr-x_ChpQZumD668mHkQ%26client%3Dca-pub-7825705102693166%26adurl%3Dhttp://deals.bestbuy.com%253Fref%253D166%2526loc%253DBAN_1781800_8718405\x22\x3e\n    \x3cimg border\x3d\x220\x22 alt\x3d\x22\x22 src\x3d\x22//s0.2mdn.net/4468309/BBY2015_0823_5629_DI_Deal_Reveled_728x90.jpg\x22\n        width\x3d\x22728\x22 height\x3d\x2290\x22 /\x3e\n  \x3c/a\x3e\n\x3c/noscript\x3e\n');if (!window.mraid) {document.write('\x3c/div\x3e');}if (!window.mraid) {(function() {var avDiv = document.getElementById("DfaVisibilityIdentifier_356597828");if (avDiv) {avDiv['_avi_'] = 'BM5cZ8L3cVdnnCrLgwQGO_qagBAAAAAAQATgByAEJ4AQCiAXFkJQEoAY_';avDiv['_avihost_'] = 'pagead2.googlesyndication.com';avDiv['_avm_'] = 'la\x3d0\x26';}var glidar = document.createElement('script');glidar.type = 'text/javascript';glidar.async = true;glidar.src = '//pagead2.googlesyndication.com/pagead/js/lidar.js';var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(glidar, s);})();} else {document.write('\x3cimg src="//pagead2.googlesyndication.com/activeview?id=lidar2&avi=BM5cZ8L3cVdnnCrLgwQGO_qagBAAAAAAQATgByAEJ4AQCiAXFkJQEoAY_&r=w" style="display:none;"\x3e\x3c/img\x3e');}2ÿŸyG_      UÜ½ðUÜ½ð;ƒã©      :https://bid.g.doubleclick.net/xbbe/creative/adj?d=APEucNUetDUu89Aeb6uRID83eUvGC79wbcAtXjdMJbsHW7kF77qz_ajBWYQ4gA8YB1POEdH6RcQnzMXQZOx6CoR--2rhFMGq5gFYUxoNxYa87xb_PYhDlNhINCO8oTPILRyUMbqMR2UtdAHPmkyT0CKxUupxQRYdEjOHUuyHNz-0sqaq1Hu61dhoky6cUYWT1VatBMJa7fCMOcvRt067Prz1vcg0vD4ViS4bQoMzoNsFdBzvAOVDtcHnBIZ_g9Q59N4Z5yKSsQeSlYAye6HIPNI4VoTsZ1O-tPptb3B1E0vJZId_HdorwIOSMwTiil_3zwqmTgGqEN7oBBecxlgUscKgaHRF019mjFzU1wtSiJNyKWrE56oTjTSPOKjNnBf_1yl8S-NH23SZlkx06O_z5EoKyKwVcfBdtI21JO1WsXi0p3olcK2cgeY&pr=Vdy97wAMYlcKaYVXAAgRNmLbxRNsgSHACQ4sPA&c=http://adclick.g.doubleclick.net/aclk%3Fsa%3DL%26ai%3DCu89x773cVdfEMdeKpgO2oqDIDa2Yn-AG3cCD344BwI23ARABIABgyba9iPSjnBKCARdjYS1wdWItNzgyNTcwNTEwMjY5MzE2NsgBCagDAZgEAKoEmwFP0H6FzujD4mxcxlrAAIJm2ZI0_-q-6G5Os7P4zkCRUMuD5uaG2KVOwzL7wiJ2dNVW92pfEzt9-cgmiKwqlaF1uBu_tPNti5yvduU4t_-17FpGoEJiYhzrsKObdIaT9oymsZuig0k_WyWeB7wlvWaD6C8r3A-qAiPCSx5bXWPOpFBnz-Mba8Ezem1uXLkuV2WqmEyUJ_nm0RTXmIAG96jG4KuKwf3sAaAGIdgHAA%26num%3D1%26sig%3DAOD64_1YWGWeqRZr-x_ChpQZumD668mHkQ%26client%3Dca-pub-7825705102693166%26adurl%3D security-info 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 request-method GET response-head HTTP/2.0 200 OK
+Alt-Svc: quic=":443"; p="1"; ma=604800
+alternate-protocol: 443:quic,p=1
+Cache-Control: no-cache, must-revalidate
+Content-Disposition: attachment; filename="f.txt"
+Content-Length: 15694
+Content-Type: text/javascript; charset=ISO-8859-1
+Date: Tue, 25 Aug 2015 19:11:44 GMT
+Expires: Fri, 01 Jan 1990 00:00:00 GMT
+P3P: policyref="https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml", CP="CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR"
+Pragma: no-cache
+Server: xbfe
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+X-Firefox-Spdy: h2
+ uncompressed-len 0   =N

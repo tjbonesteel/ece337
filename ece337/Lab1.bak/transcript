@@ -1,0 +1,299 @@
+# //  Questa Sim-64
+# //  Version 10.3b linux_x86_64 May 29 2014
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+vlib work
+vlog source/comparator.sv
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 15:52:39 on Aug 25,2015
+# vlog -reportprogress 300 source/comparator.sv 
+# -- Compiling module comparator
+# ** Error: source/comparator.sv(24): near "not": syntax error, unexpected not
+# ** Error: source/comparator.sv(27): near "assign": syntax error, unexpected assign
+# ** Error: source/comparator.sv(29): near "not": syntax error, unexpected not
+# ** Error: source/comparator.sv(31): (vlog-2730) Undefined variable: 'LT'.
+# ** Error: source/comparator.sv(32): (vlog-2730) Undefined variable: 'EQ'.
+# ** Error: source/comparator.sv(33): near "else": syntax error, unexpected else
+# ** Error: source/comparator.sv(37): near "else": syntax error, unexpected else
+# ** Warning: source/comparator.sv(42): (vlog-2283) Extra semicolon in $unit (global) scope.
+# ** Warning: source/comparator.sv(42): (vlog-2284) Empty $unit scope found.
+# End time: 15:52:39 on Aug 25,2015, Elapsed time: 0:00:00
+# Errors: 7, Warnings: 2
+# /package/eda/mg/questa10.3b/questasim/linux_x86_64/vlog failed.
+vlog source/comparator.sv
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 15:54:09 on Aug 25,2015
+# vlog -reportprogress 300 source/comparator.sv 
+# -- Compiling module comparator
+# ** Error: source/comparator.sv(27): near "assign": syntax error, unexpected assign
+# ** Error: source/comparator.sv(29): near "not": syntax error, unexpected not
+# ** Error: source/comparator.sv(31): (vlog-2730) Undefined variable: 'LT'.
+# ** Error: source/comparator.sv(32): (vlog-2730) Undefined variable: 'EQ'.
+# ** Error: source/comparator.sv(33): near "else": syntax error, unexpected else
+# ** Error: source/comparator.sv(37): near "else": syntax error, unexpected else
+# ** Warning: source/comparator.sv(42): (vlog-2283) Extra semicolon in $unit (global) scope.
+# ** Warning: source/comparator.sv(42): (vlog-2284) Empty $unit scope found.
+# End time: 15:54:09 on Aug 25,2015, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 2
+# /package/eda/mg/questa10.3b/questasim/linux_x86_64/vlog failed.
+vlog source/comparator.sv
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 15:54:47 on Aug 25,2015
+# vlog -reportprogress 300 source/comparator.sv 
+# -- Compiling module comparator
+# ** Error: source/comparator.sv(27): near "gte": syntax error, unexpected IDENTIFIER
+# ** Error: source/comparator.sv(29): near "not": syntax error, unexpected not
+# ** Error: source/comparator.sv(31): (vlog-2730) Undefined variable: 'LT'.
+# ** Error: source/comparator.sv(32): (vlog-2730) Undefined variable: 'EQ'.
+# ** Error: source/comparator.sv(33): near "else": syntax error, unexpected else
+# ** Error: source/comparator.sv(37): near "else": syntax error, unexpected else
+# ** Warning: source/comparator.sv(42): (vlog-2283) Extra semicolon in $unit (global) scope.
+# ** Warning: source/comparator.sv(42): (vlog-2284) Empty $unit scope found.
+# End time: 15:54:47 on Aug 25,2015, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 2
+# /package/eda/mg/questa10.3b/questasim/linux_x86_64/vlog failed.
+vlog source/comparator.sv
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 15:57:03 on Aug 25,2015
+# vlog -reportprogress 300 source/comparator.sv 
+# -- Compiling module comparator
+# ** Error: source/comparator.sv(27): near "assign": syntax error, unexpected assign
+# ** Error: source/comparator.sv(29): near "not": syntax error, unexpected not
+# ** Error: source/comparator.sv(33): near "else": syntax error, unexpected else
+# ** Error: source/comparator.sv(37): near "else": syntax error, unexpected else
+# ** Warning: source/comparator.sv(42): (vlog-2283) Extra semicolon in $unit (global) scope.
+# ** Warning: source/comparator.sv(42): (vlog-2284) Empty $unit scope found.
+# End time: 15:57:03 on Aug 25,2015, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 2
+# /package/eda/mg/questa10.3b/questasim/linux_x86_64/vlog failed.
+vlog source/comparator.sv
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 15:58:41 on Aug 25,2015
+# vlog -reportprogress 300 source/comparator.sv 
+# -- Compiling module comparator
+# ** Error: source/comparator.sv(27): near "gte": syntax error, unexpected IDENTIFIER
+# ** Error: source/comparator.sv(29): near "not": syntax error, unexpected not
+# ** Error: source/comparator.sv(33): near "else": syntax error, unexpected else
+# ** Error: source/comparator.sv(37): near "else": syntax error, unexpected else
+# ** Warning: source/comparator.sv(42): (vlog-2283) Extra semicolon in $unit (global) scope.
+# ** Warning: source/comparator.sv(42): (vlog-2284) Empty $unit scope found.
+# End time: 15:58:41 on Aug 25,2015, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 2
+# /package/eda/mg/questa10.3b/questasim/linux_x86_64/vlog failed.
+vlog source/comparator.sv
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 15:59:22 on Aug 25,2015
+# vlog -reportprogress 300 source/comparator.sv 
+# -- Compiling module comparator
+# ** Error: source/comparator.sv(27): near "gte": syntax error, unexpected IDENTIFIER
+# ** Error: source/comparator.sv(31): near "==": syntax error, unexpected ==
+# ** Error: source/comparator.sv(33): near "else": syntax error, unexpected else
+# ** Error: source/comparator.sv(37): near "else": syntax error, unexpected else
+# ** Warning: source/comparator.sv(42): (vlog-2283) Extra semicolon in $unit (global) scope.
+# ** Warning: source/comparator.sv(42): (vlog-2284) Empty $unit scope found.
+# End time: 15:59:23 on Aug 25,2015, Elapsed time: 0:00:01
+# Errors: 4, Warnings: 2
+# /package/eda/mg/questa10.3b/questasim/linux_x86_64/vlog failed.
+vlog source/comparator.sv
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 15:59:56 on Aug 25,2015
+# vlog -reportprogress 300 source/comparator.sv 
+# -- Compiling module comparator
+# ** Error: source/comparator.sv(27): near "gte": syntax error, unexpected IDENTIFIER
+# ** Error: source/comparator.sv(33): near "else": syntax error, unexpected else
+# ** Error: source/comparator.sv(37): near "else": syntax error, unexpected else
+# ** Warning: source/comparator.sv(42): (vlog-2283) Extra semicolon in $unit (global) scope.
+# ** Warning: source/comparator.sv(42): (vlog-2284) Empty $unit scope found.
+# End time: 15:59:56 on Aug 25,2015, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 2
+# /package/eda/mg/questa10.3b/questasim/linux_x86_64/vlog failed.
+vlog source/comparator.sv
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 16:01:26 on Aug 25,2015
+# vlog -reportprogress 300 source/comparator.sv 
+# -- Compiling module comparator
+# ** Error: source/comparator.sv(27): near "gte": syntax error, unexpected IDENTIFIER
+# ** Error: source/comparator.sv(30): near "=": syntax error, unexpected '=', expecting IDENTIFIER or TYPE_IDENTIFIER
+# End time: 16:01:26 on Aug 25,2015, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /package/eda/mg/questa10.3b/questasim/linux_x86_64/vlog failed.
+vlog source/comparator.sv
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 16:01:49 on Aug 25,2015
+# vlog -reportprogress 300 source/comparator.sv 
+# -- Compiling module comparator
+# ** Error: source/comparator.sv(27): near "gte": syntax error, unexpected IDENTIFIER
+# ** Error: source/comparator.sv(33): near "else": syntax error, unexpected else
+# ** Error: source/comparator.sv(37): near "else": syntax error, unexpected else
+# ** Warning: source/comparator.sv(42): (vlog-2283) Extra semicolon in $unit (global) scope.
+# ** Warning: source/comparator.sv(42): (vlog-2284) Empty $unit scope found.
+# End time: 16:01:49 on Aug 25,2015, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 2
+# /package/eda/mg/questa10.3b/questasim/linux_x86_64/vlog failed.
+vlog source/comparator.sv
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 16:01:53 on Aug 25,2015
+# vlog -reportprogress 300 source/comparator.sv 
+# -- Compiling module comparator
+# ** Error: source/comparator.sv(27): near "gte": syntax error, unexpected IDENTIFIER
+# ** Error: source/comparator.sv(33): near "else": syntax error, unexpected else
+# ** Error: source/comparator.sv(37): near "else": syntax error, unexpected else
+# ** Warning: source/comparator.sv(42): (vlog-2283) Extra semicolon in $unit (global) scope.
+# ** Warning: source/comparator.sv(42): (vlog-2284) Empty $unit scope found.
+# End time: 16:01:53 on Aug 25,2015, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 2
+# /package/eda/mg/questa10.3b/questasim/linux_x86_64/vlog failed.
+vlog source/comparator.sv
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 16:03:35 on Aug 25,2015
+# vlog -reportprogress 300 source/comparator.sv 
+# -- Compiling module comparator
+# ** Error: source/comparator.sv(27): near "gte": syntax error, unexpected IDENTIFIER
+# ** Error: source/comparator.sv(34): near "else": syntax error, unexpected else
+# ** Error: source/comparator.sv(38): near "else": syntax error, unexpected else
+# ** Warning: source/comparator.sv(44): (vlog-2283) Extra semicolon in $unit (global) scope.
+# ** Warning: source/comparator.sv(44): (vlog-2284) Empty $unit scope found.
+# End time: 16:03:36 on Aug 25,2015, Elapsed time: 0:00:01
+# Errors: 3, Warnings: 2
+# /package/eda/mg/questa10.3b/questasim/linux_x86_64/vlog failed.
+vlog source/comparator.sv
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 16:04:08 on Aug 25,2015
+# vlog -reportprogress 300 source/comparator.sv 
+# -- Compiling module comparator
+# ** Error: source/comparator.sv(27): near "gte": syntax error, unexpected IDENTIFIER
+# ** Warning: source/comparator.sv(48): (vlog-2283) Extra semicolon in $unit (global) scope.
+# ** Warning: source/comparator.sv(48): (vlog-2284) Empty $unit scope found.
+# End time: 16:04:08 on Aug 25,2015, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 2
+# /package/eda/mg/questa10.3b/questasim/linux_x86_64/vlog failed.
+vlog source/comparator.sv
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 16:06:26 on Aug 25,2015
+# vlog -reportprogress 300 source/comparator.sv 
+# -- Compiling module comparator
+# ** Error: source/comparator.sv(25): (vlog-2110) Illegal reference to net "lte".
+# ** Error: source/comparator.sv(27): (vlog-2110) Illegal reference to net "gte".
+# ** Error: source/comparator.sv(31): (vlog-2110) Illegal reference to net "GT".
+# ** Error: source/comparator.sv(32): (vlog-2110) Illegal reference to net "LT".
+# ** Error: source/comparator.sv(33): (vlog-2110) Illegal reference to net "EQ".
+# ** Error: source/comparator.sv(37): (vlog-2110) Illegal reference to net "GT".
+# ** Error: source/comparator.sv(38): (vlog-2110) Illegal reference to net "LT".
+# ** Error: source/comparator.sv(39): (vlog-2110) Illegal reference to net "EQ".
+# ** Error: source/comparator.sv(43): (vlog-2110) Illegal reference to net "GT".
+# ** Error: source/comparator.sv(44): (vlog-2110) Illegal reference to net "LT".
+# ** Error: source/comparator.sv(45): (vlog-2110) Illegal reference to net "EQ".
+# End time: 16:06:26 on Aug 25,2015, Elapsed time: 0:00:00
+# Errors: 11, Warnings: 0
+# /package/eda/mg/questa10.3b/questasim/linux_x86_64/vlog failed.
+vlog source/comparator.sv
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 16:07:20 on Aug 25,2015
+# vlog -reportprogress 300 source/comparator.sv 
+# -- Compiling module comparator
+# ** Error: source/comparator.sv(31): (vlog-2730) Undefined variable: 'gt'.
+# ** Error: source/comparator.sv(32): (vlog-2730) Undefined variable: 'lt'.
+# ** Error: source/comparator.sv(33): (vlog-2730) Undefined variable: 'eq'.
+# ** Error: source/comparator.sv(37): (vlog-2730) Undefined variable: 'gt'.
+# ** Error: source/comparator.sv(38): (vlog-2730) Undefined variable: 'lt'.
+# ** Error: source/comparator.sv(39): (vlog-2730) Undefined variable: 'eq'.
+# ** Error: source/comparator.sv(43): (vlog-2730) Undefined variable: 'gt'.
+# ** Error: source/comparator.sv(44): (vlog-2730) Undefined variable: 'lt'.
+# ** Error: source/comparator.sv(45): (vlog-2730) Undefined variable: 'eq'.
+# End time: 16:07:20 on Aug 25,2015, Elapsed time: 0:00:00
+# Errors: 9, Warnings: 0
+# /package/eda/mg/questa10.3b/questasim/linux_x86_64/vlog failed.
+vlog source/comparator.sv
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 16:07:36 on Aug 25,2015
+# vlog -reportprogress 300 source/comparator.sv 
+# -- Compiling module comparator
+# ** Error: source/comparator.sv(25): (vlog-2110) Illegal reference to net "lte".
+# ** Error: source/comparator.sv(27): (vlog-2110) Illegal reference to net "gte".
+# ** Error: source/comparator.sv(31): (vlog-2110) Illegal reference to net "gt".
+# ** Error: source/comparator.sv(32): (vlog-2110) Illegal reference to net "lt".
+# ** Error: source/comparator.sv(33): (vlog-2110) Illegal reference to net "eq".
+# ** Error: source/comparator.sv(37): (vlog-2110) Illegal reference to net "gt".
+# ** Error: source/comparator.sv(38): (vlog-2110) Illegal reference to net "lt".
+# ** Error: source/comparator.sv(39): (vlog-2110) Illegal reference to net "eq".
+# ** Error: source/comparator.sv(43): (vlog-2110) Illegal reference to net "gt".
+# ** Error: source/comparator.sv(44): (vlog-2110) Illegal reference to net "lt".
+# ** Error: source/comparator.sv(45): (vlog-2110) Illegal reference to net "eq".
+# End time: 16:07:36 on Aug 25,2015, Elapsed time: 0:00:00
+# Errors: 11, Warnings: 0
+# /package/eda/mg/questa10.3b/questasim/linux_x86_64/vlog failed.
+vlog source/comparator.sv
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 16:08:21 on Aug 25,2015
+# vlog -reportprogress 300 source/comparator.sv 
+# -- Compiling module comparator
+# ** Error: source/comparator.sv(25): (vlog-2110) Illegal reference to net "lte".
+# ** Error: source/comparator.sv(27): (vlog-2110) Illegal reference to net "gte".
+# ** Error: source/comparator.sv(31): (vlog-2110) Illegal reference to net "gt".
+# ** Error: source/comparator.sv(32): (vlog-2110) Illegal reference to net "lt".
+# ** Error: source/comparator.sv(33): (vlog-2110) Illegal reference to net "eq".
+# ** Error: source/comparator.sv(37): (vlog-2110) Illegal reference to net "gt".
+# ** Error: source/comparator.sv(38): (vlog-2110) Illegal reference to net "lt".
+# ** Error: source/comparator.sv(39): (vlog-2110) Illegal reference to net "eq".
+# ** Error: source/comparator.sv(43): (vlog-2110) Illegal reference to net "gt".
+# ** Error: source/comparator.sv(44): (vlog-2110) Illegal reference to net "lt".
+# ** Error: source/comparator.sv(45): (vlog-2110) Illegal reference to net "eq".
+# End time: 16:08:21 on Aug 25,2015, Elapsed time: 0:00:00
+# Errors: 11, Warnings: 0
+# /package/eda/mg/questa10.3b/questasim/linux_x86_64/vlog failed.
+
+vlog source/comparator.sv
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 16:08:45 on Aug 25,2015
+# vlog -reportprogress 300 source/comparator.sv 
+# -- Compiling module comparator
+# ** Error: source/comparator.sv(25): (vlog-2110) Illegal reference to net "lte".
+# ** Error: source/comparator.sv(27): (vlog-2110) Illegal reference to net "gte".
+# ** Error: source/comparator.sv(31): (vlog-2110) Illegal reference to net "gt".
+# ** Error: source/comparator.sv(32): (vlog-2110) Illegal reference to net "lt".
+# ** Error: source/comparator.sv(33): (vlog-2110) Illegal reference to net "eq".
+# ** Error: source/comparator.sv(37): (vlog-2110) Illegal reference to net "gt".
+# ** Error: source/comparator.sv(38): (vlog-2110) Illegal reference to net "lt".
+# ** Error: source/comparator.sv(39): (vlog-2110) Illegal reference to net "eq".
+# ** Error: source/comparator.sv(43): (vlog-2110) Illegal reference to net "gt".
+# ** Error: source/comparator.sv(44): (vlog-2110) Illegal reference to net "lt".
+# ** Error: source/comparator.sv(45): (vlog-2110) Illegal reference to net "eq".
+# End time: 16:08:45 on Aug 25,2015, Elapsed time: 0:00:00
+# Errors: 11, Warnings: 0
+# /package/eda/mg/questa10.3b/questasim/linux_x86_64/vlog failed.
+vlog source/comparator.sv
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 16:09:36 on Aug 25,2015
+# vlog -reportprogress 300 source/comparator.sv 
+# -- Compiling module comparator
+# ** Error: source/comparator.sv(25): (vlog-2110) Illegal reference to net "lte".
+# ** Error: source/comparator.sv(27): (vlog-2110) Illegal reference to net "gte".
+# End time: 16:09:36 on Aug 25,2015, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /package/eda/mg/questa10.3b/questasim/linux_x86_64/vlog failed.
+vlog source/comparator.sv
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 16:09:47 on Aug 25,2015
+# vlog -reportprogress 300 source/comparator.sv 
+# -- Compiling module comparator
+# 
+# Top level modules:
+# 	comparator
+# End time: 16:09:47 on Aug 25,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog source/comparator.sv
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 16:10:02 on Aug 25,2015
+# vlog -reportprogress 300 source/comparator.sv 
+# -- Compiling module comparator
+# 
+# Top level modules:
+# 	comparator
+# End time: 16:10:02 on Aug 25,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

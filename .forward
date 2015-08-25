@@ -1,0 +1,22 @@
+#
+#  Filter e-mail through "procmail".
+#  
+#  If procmail is not found or fails for some reason, exit with status
+#  75.  Status 75 tells sendmail that a temporary failure occurred and to
+#  try again later.  This way, mail won't be lost so long as a correction
+#  is made before sendmail gives up trying a few days later.
+#  
+"|/usr/local/bin/procmail -f- || exit 75"
+#
+#  If at some point in the future, you want to bounce messages back,
+#  uncomment the lines in the ".procmailrc" file and switch the line
+#  above to:
+#
+#	"|/usr/local/bin/procmail -f-"
+#
+#  See the document
+#
+#	https://engineering.purdue.edu/ECN/documents/UNIX/sa/
+#
+#  for more information about the subject of bouncing messages.
+#
